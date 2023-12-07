@@ -2,7 +2,7 @@
         <h1> Things To do  </h1>
  <div>
   <div>
-    <input v-model="newTodo" @keyup.enter="addTodo"
+    <input v-model="newLead" @keyup.enter="addTodo"
     placeholder="Enter new schedules" class="input-field"/>
     <ul >
        <li v-for="todo in filteredTodos" :key="todo.id" class="todo-items">
